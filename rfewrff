@@ -1,10 +1,10 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/hYt8sNUU"))() --you can go into the github link and copy all of it and modify it for yourself.
-local Window = Library:CreateWindow("Metrofyy Test cheat", Vector2.new(492, 598), Enum.KeyCode.RightShift) --you can change your UI keybind
-local AimingTab = Window:CreateTab("Blatant")
-local Legit = Window:CreateTab("Legit")
-local Misc = Window:CreateTab("Misc")
+local Window = Library:CreateWindow("Metrofyy Roblox cheat", Vector2.new(492, 598), Enum.KeyCode.RightShift) --you can change your UI keybind
+local AimingTab = Window:CreateTab("Blatant Cheating")
+local Legit = Window:CreateTab("Legit Cheating")
 local Visuals = Window:CreateTab("Visuals")
-local Universal = Window:CreateTab("Universal")
+local Misc = Window:CreateTab("Misc")
+local Universal = Window:CreateTab("everybody")
 local Camlockv = Window:CreateTab("Camlock")
 local Config = Window:CreateTab("Settings")
 
@@ -54,7 +54,7 @@ local mouse = lp:GetMouse()
 
 local Tracer = Drawing.new("Line")
 Tracer.Visible = false
-Tracer.Color = Color3.fromRGB(13, 17, 214)
+Tracer.Color = Color3.fromRGB(255, 0, 0)
 Tracer.Thickness = 1
 Tracer.Transparency = 1
 
